@@ -1,0 +1,7 @@
+defaultSelection=\u0000
+disabledIDs=\u0000com.silabs.sdk.stack.super\:2.5.5._-429227245\u0000com.silabs.sdk.stack.btmesh\:1.5.0._-1270871897\u0000com.silabs.stack.external.stackless\:1.0.0._1234321\u0000com.silabs.sdk.8051\:4.1.6._1192968416\u0000
+eclipse.preferences.version=1
+enabledIDs=com.silabs.sdk.stack.btmesh\:1.4.3._-1961874139\u0000com.silabs.sdk.stack.super\:2.6.1._-759015789\u0000com.silabs.sdk.stack.super\:2.6.1._-429227246\u0000com.silabs.sdk.stack.super\:2.5.5._-759015792\u0000com.silabs.sdk.none\:0.0.0\u0000
+knownPackageIds=com.silabs.sdk.exx32.v5.8.feature,com.silabs.stack.ble.v2.11.feature,com.silabs.stack.btcommon.v1.4.feature,com.silabs.stack.btcommon.v1.3.feature,com.silabs.stack.blemesh.v1.5.feature,com.silabs.stack.znet.v6.5.feature,com.silabs.sdk.gecko_platform.v2.6.feature,com.silabs.sdk.mos_krnx.v5.6.feature,com.silabs.sdk.gecko_platform.v2.5.feature,com.silabs.sdk.gecko_platform.v2.7.feature,com.silabs.sdk.8051.v4.1.6.feature,com.silabs.stack.znet.v6.6.feature,com.silabs.stack.btmeshadk.v2.1.feature,com.silabs.sdk.mos_krnx.v5.7.feature,com.silabs.stack.ble.v2.12.feature,com.silabs.stack.znet.v6.7.feature
+lastRefreshDate=1557850256866
+manualDescriptors=<?xml version\="1.0" encoding\="ASCII"?>\r\n<model\:MDescriptors xmlns\:model\="http\://www.silabs.com/ss/Studio.ecore"/>\r\n

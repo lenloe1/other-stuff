@@ -1,0 +1,4 @@
+protectFromDetectionUpdates=false
+label=Telegesis USB Device (ID:0) (04000B9E)
+boardOverrides {
+}

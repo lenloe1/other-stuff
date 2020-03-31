@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="com.silabs.ss.framework.ide.project.core.cdtMbsProjectType">
+		<item value="COPY" key="settingImportModeOption"/>
+		<item value="com.silabs.ss.tool.hwconfig.project.ui.halConfiguratedProjectWizard" key="projectTypeId"/>
+		<item value="false" key="filterTemplatesByPartSdk"/>
+		<item value="template.esf.com.silabs.template.external.com.silabs.sdk.stack.super.afv2.EmberZNet 6.5.5.0 GA SoC.DynamicMultiprotocolDemoLightWithNvm3_2.5.5._-759015792.6.5.5._767697453" key="selectedTemplateId"/>
+		<item value="LINK" key="importOption"/>
+		<item value="true" key="filterTemplatesByToolchain"/>
+		<item value="true" key="showInternal"/>
+		<list key="fileLocationHistory">
+			<item value="C:\Users\lenloe\Desktop\DMP_SE_12"/>
+		</list>
+		<list key="fileLocations">
+			<item value="C:\Users\lenloe\Desktop\DMP_SE_12"/>
+		</list>
+	</section>
+</section>

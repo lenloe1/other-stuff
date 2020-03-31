@@ -1,0 +1,17 @@
+14:05:31 **** Build of configuration IAR ARM - Default for project DynamicMultiprotocolLightSoc ****
+make -j4 all 
+Building file: ../DynamicMultiprotocolLightSoc_callbacks.c
+Invoking: IAR C/C++ Compiler for ARM
+iccarm "../DynamicMultiprotocolLightSoc_callbacks.c" -o "DynamicMultiprotocolLightSoc_callbacks.o" --no_wrap_diagnostics -e --cpu Cortex-M4 --fpu VFPv4_sp --debug --dlib_config "C:/Program Files/IAR Systems/Embedded Workbench 7.4/arm/inc/c/DLib_Config_Normal.h" --endian little --cpu_mode thumb -On --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --dependencies=m DynamicMultiprotocolLightSoc_callbacks.d
+
+   IAR ANSI C/C++ Compiler V7.60.1.11101/W32 for ARM
+Fatal error[LMS001]: License check failed. Use the IAR License Manager to
+   Copyright 1999-2016 IAR Systems AB.
+          resolve the problem. 
+No license found. [LicenseCheck:2.14.2.842,
+          RMS:8.5.2.0015, Feature:ARM.EW.COMPILER, Version:1.08]
+Fatal error detected, aborting.
+make: *** [DynamicMultiprotocolLightSoc_callbacks.o] Error 2
+
+14:05:33 Build Finished (took 2s.199ms)
+

@@ -1,0 +1,54 @@
+13:17:37 **** Incremental Build of configuration IAR ARM - Default for project DynamicMultiprotocolDemoLightWithNvm3Soc ****
+make -j4 all 
+Building file: ../DynamicMultiprotocolDemoLightWithNvm3Soc_callbacks.c
+Building file: ../afv2-bookkeeping.c
+Building file: ../call-command-handler.c
+Invoking: IAR C/C++ Compiler for ARM
+iccarm "../DynamicMultiprotocolDemoLightWithNvm3Soc_callbacks.c" -o "DynamicMultiprotocolDemoLightWithNvm3Soc_callbacks.o" --no_wrap_diagnostics -e --cpu Cortex-M4 --fpu VFPv4_sp --debug --dlib_config "C:/Program Files/IAR Systems/Embedded Workbench 7.4/arm/inc/c/DLib_Config_Normal.h" --endian little --cpu_mode thumb -On --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --dependencies=m DynamicMultiprotocolDemoLightWithNvm3Soc_callbacks.d
+Invoking: IAR C/C++ Compiler for ARM
+iccarm "../afv2-bookkeeping.c" -o "afv2-bookkeeping.o" --no_wrap_diagnostics -e --cpu Cortex-M4 --fpu VFPv4_sp --debug --dlib_config "C:/Program Files/IAR Systems/Embedded Workbench 7.4/arm/inc/c/DLib_Config_Normal.h" --endian little --cpu_mode thumb -On --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --dependencies=m afv2-bookkeeping.d
+Invoking: IAR C/C++ Compiler for ARM
+iccarm "../call-command-handler.c" -o "call-command-handler.o" --no_wrap_diagnostics -e --cpu Cortex-M4 --fpu VFPv4_sp --debug --dlib_config "C:/Program Files/IAR Systems/Embedded Workbench 7.4/arm/inc/c/DLib_Config_Normal.h" --endian little --cpu_mode thumb -On --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --dependencies=m call-command-handler.d
+
+Fatal error[LMS001]: License check failed. Use the IAR License Manager to
+   IAR ANSI C/C++ Compiler V7.60.1.11101/W32 for ARM
+          resolve the problem. 
+   Copyright 1999-2016 IAR Systems AB.
+No license found. [LicenseCheck:2.14.2.842,
+          RMS:8.5.2.0015, Feature:ARM.EW.COMPILER, Version:1.08]
+Fatal error detected, aborting.
+make: *** [DynamicMultiprotocolDemoLightWithNvm3Soc_callbacks.o] Error 2
+make: *** Waiting for unfinished jobs....
+
+   IAR ANSI C/C++ Compiler V7.60.1.11101/W32 for ARM
+   Copyright 1999-2016 IAR Systems AB.
+Fatal error[LMS001]: License check failed. Use the IAR License Manager to
+          resolve the problem. 
+No license found. [LicenseCheck:2.14.2.842,
+          RMS:8.5.2.0015, Feature:ARM.EW.COMPILER, Version:1.08]
+Fatal error detected, aborting.
+Building file: ../callback-stub.c
+make: *** [afv2-bookkeeping.o] Error 2
+
+   IAR ANSI C/C++ Compiler V7.60.1.11101/W32 for ARM
+   Copyright 1999-2016 IAR Systems AB.
+Fatal error[LMS001]: License check failed. Use the IAR License Manager to
+          resolve the problem. 
+No license found. [LicenseCheck:2.14.2.842,
+          RMS:8.5.2.0015, Feature:ARM.EW.COMPILER, Version:1.08]
+Invoking: IAR C/C++ Compiler for ARM
+Fatal error detected, aborting.
+iccarm "../callback-stub.c" -o "callback-stub.o" --no_wrap_diagnostics -e --cpu Cortex-M4 --fpu VFPv4_sp --debug --dlib_config "C:/Program Files/IAR Systems/Embedded Workbench 7.4/arm/inc/c/DLib_Config_Normal.h" --endian little --cpu_mode thumb -On --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --dependencies=m callback-stub.d
+make: *** [call-command-handler.o] Error 2
+
+   IAR ANSI C/C++ Compiler V7.60.1.11101/W32 for ARM
+Fatal error[LMS001]: License check failed. Use the IAR License Manager to
+   Copyright 1999-2016 IAR Systems AB.
+          resolve the problem. 
+No license found. [LicenseCheck:2.14.2.842,
+          RMS:8.5.2.0015, Feature:ARM.EW.COMPILER, Version:1.08]
+Fatal error detected, aborting.
+make: *** [callback-stub.o] Error 2
+
+13:17:41 Build Finished (took 3s.617ms)
+

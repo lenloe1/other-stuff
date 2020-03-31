@@ -1,0 +1,5 @@
+protectFromDetectionUpdates=false
+boardOverrides {
+}
+EXTENSION:com.silabs.ss.support.mcu.internal.api.part.core.MCUDeviceSettingExtension {
+}

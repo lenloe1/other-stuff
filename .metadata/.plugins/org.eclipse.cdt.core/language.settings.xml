@@ -1,0 +1,1342 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<plugin>
+	<extension point="org.eclipse.cdt.core.LanguageSettingsProvider">
+		<provider class="com.iar.cdt.arm.language.ArmLanguageSettingsProvider" id="iar.arm.toolchain.languageSettingsProvider" name="IAR Language Settings Provider for ARM" prefer-non-shared="false">
+			<language-scope id="com.iar.cdt.arm.language.IARc"/>
+			<language-scope id="com.iar.cdt.arm.language.IARcpp"/>
+			<language id="com.iar.cdt.arm.language.IARc">
+				<resource project-relative-path="">
+					<entry kind="includePath" name="C:\\Program Files\\IAR Systems\\Embedded Workbench 7.4\\arm\\inc">
+						<flag value="BUILTIN|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="C:\\Program Files\\IAR Systems\\Embedded Workbench 7.4\\arm\\inc\\c">
+						<flag value="BUILTIN|RESOLVED"/>
+					</entry>
+					<entry kind="macro" name="_DLIB_CONFIG_FILE_HEADER_NAME" value="&quot;C:/Program Files/IAR Systems/Embedded Workbench 7.4/arm/inc/c/DLib_Config_Normal.h&quot;">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="_DLIB_CONFIG_FILE_STRING" value="&quot;C:/Program Files/IAR Systems/Embedded Workbench 7.4/arm/inc/c/DLib_Config_Normal.h&quot;">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__AAPCS_VFP__" value="1">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__ALIGNOF__" value="__alignof__">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__ALIGNOF__(X)" value="__alignof(X)">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__ARM4TM__" value="4">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__ARM5TM__" value="5">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__ARM5T__" value="5">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__ARM5__" value="5">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__ARM6MEDIA__" value="6">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__ARM6M__" value="11">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__ARM6SM__" value="12">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__ARM6T2__" value="6">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__ARM6__" value="6">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__ARM7EM__" value="13">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__ARM7M__" value="7">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__ARM7__" value="7">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__ARMVFPV1__" value="1">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__ARMVFPV2__" value="2">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__ARMVFPV3_D16__" value="1">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__ARMVFPV3_FP16__" value="1">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__ARMVFPV3__" value="3">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__ARMVFPV4__" value="4">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__ARMVFP_D16__" value="1">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__ARMVFP_FP16__" value="1">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__ARMVFP_SP__" value="1">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__ARMVFP__" value="__ARMVFPV4__">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__ARM_BIG_ENDIAN" value="0">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__ARM_MEDIA__" value="1">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__ARM_PROFILE_M__" value="1">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__BASE_FILE__" value="&quot;&quot;">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__BOOL_SIZE__" value="1">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__BOOL_TYPE__" value="unsigned char">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__BUILD_NUMBER__" value="11101">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__CHAR_ALIGN__" value="1">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__CHAR_BITS__" value="8">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__CHAR_MAX__" value="0xff">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__CHAR_MIN__" value="0">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__CHAR_SIZE__" value="1">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__CODE_MEM0_POINTER_OK__" value="1">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__CODE_MEM0_UNIQUE_POINTER__" value="1">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__CODE_MEM0_VAR_OK__" value="1">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__CODE_MEM0__" value="__code">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__CODE_MEMORY_LIST1__()" value="__CODE_MEM_HELPER1__(__code, 0)">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__CODE_MEMORY_LIST2__(_P1)" value="__CODE_MEM_HELPER2__(__code, 0, _P1)">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__CODE_MEMORY_LIST3__(_P1,_P2)" value="__CODE_MEM_HELPER3__(__code, 0, _P1, _P2)">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__CODE_PTR_MEMORY_LIST1__()" value="__CODE_PTR_MEM_HELPER1__(__code, 0)">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__CODE_PTR_MEMORY_LIST2__(_P1)" value="__CODE_PTR_MEM_HELPER2__(__code, 0, _P1)">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__CODE_PTR_MEMORY_LIST3__(_P1,_P2)" value="__CODE_PTR_MEM_HELPER3__(__code, 0, _P1, _P2)">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__CORE__" value="__ARM7EM__">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__CPU_MODE__" value="1">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__C_task" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__DATA_MEM0_HEAP_SEGMENT__" value="&quot;HEAP&quot;">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__DATA_MEM0_HEAP__" value="0">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__DATA_MEM0_INDEX_TYPE__" value="int">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__DATA_MEM0_INTPTR_SIZE_PREFIX__" value="&quot;&quot;">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__DATA_MEM0_INTPTR_TYPE__" value="int">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__DATA_MEM0_MAX_SIZE__" value="0x7fffffff">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__DATA_MEM0_PAGE_SIZE__" value="0">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__DATA_MEM0_POINTER_OK__" value="1">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__DATA_MEM0_SIZE_TYPE__" value="unsigned int">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__DATA_MEM0_UINTPTR_TYPE__" value="unsigned int">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__DATA_MEM0_UNIQUE_POINTER__" value="1">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__DATA_MEM0_VAR_OK__" value="1">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__DATA_MEM0__" value="__data">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__DATA_MEMORY_LIST1__()" value="__DATA_MEM_HELPER1__(__data, 0)">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__DATA_MEMORY_LIST2__(_P1)" value="__DATA_MEM_HELPER2__(__data, 0, _P1)">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__DATA_MEMORY_LIST3__(_P1,_P2)" value="__DATA_MEM_HELPER3__(__data, 0, _P1, _P2)">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__DATA_PTR_MEMORY_LIST1__()" value="__DATA_PTR_MEM_HELPER1__(__data, 0)">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__DATA_PTR_MEMORY_LIST2__(_P1)" value="__DATA_PTR_MEM_HELPER2__(__data, 0, _P1)">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__DATA_PTR_MEMORY_LIST3__(_P1,_P2)" value="__DATA_PTR_MEM_HELPER3__(__data, 0, _P1, _P2)">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__DEF_HEAP_MEM__" value="__data">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__DEF_PTR_MEM__" value="__data">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__DEF_PTR_SIZE__" value="4">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__DOUBLE_ALIGN__" value="8">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__DOUBLE_SIZE__" value="8">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__EDG_ABI_CHANGES_FOR_ARRAY_NEW_AND_DELETE" value="1">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__EDG_ABI_CHANGES_FOR_PLACEMENT_DELETE" value="1">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__EDG_ABI_CHANGES_FOR_RTTI" value="1">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__EDG_ABI_COMPATIBILITY_VERSION" value="9999">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__EDG_ANSIC" value="1">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__EDG_BSD" value="0">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__EDG_CPP11_IL_EXTENSIONS_SUPPORTED" value="1">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__EDG_DELTA_TYPE" value="int">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__EDG_IA64_ABI" value="1">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__EDG_IA64_ABI_USE_INT_STATIC_INIT_GUARD" value="1">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__EDG_IA64_ABI_USE_VARIANT_ARRAY_COOKIES" value="1">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__EDG_IA64_ABI_VARIANT_CTORS_AND_DTORS_RETURN_THIS" value="1">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__EDG_IA64_VTABLE_ENTRY_TYPE" value="int">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__EDG_LOWER_VARIABLE_LENGTH_ARRAYS" value="1">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__EDG_PTRDIFF_TYPE__" value="int">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__EDG_SIZE_TYPE__" value="unsigned int">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__EDG_SYSV" value="0">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__EDG_TYPE_TRAITS_ENABLED" value="1">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__EDG_VERSION__" value="410">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__EDG_VIRTUAL_FUNCTION_INDEX_TYPE" value="unsigned short">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__EDG__" value="1">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__FLOAT_ALIGN__" value="4">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__FLOAT_SIZE__" value="4">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__FUNCTION__" value="&quot;&quot;">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__HAS_JOINED_TYPES__" value="1">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__HAS_LOCATED_DECLARATION__" value="1">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__HAS_LOCATED_WITH_INIT__" value="1">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__HAS_PACKED__" value="1">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__HAS_WEAK__" value="1">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__HEAPD_MEMORY_LIST1__()" value="__HEAPD_MEM_HELPER1__(__data, 0, _)">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__HEAPU_MEMORY_LIST1__()" value="__HEAPU_MEM_HELPER1__(__data, 0)">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__HEAP_DEFAULT_MEM__" value="0">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__HEAP_MEM0__" value="0">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__HEAP_MEMORY_LIST1__()" value="__HEAP_MEM_HELPER1__(__data, 0)">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__HEAP_MEMORY_LIST2__(_P1)" value="__HEAP_MEM_HELPER2__(__data, 0, _P1)">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__HEAP_MEMORY_LIST3__(_P1,_P2)" value="__HEAP_MEM_HELPER3__(__data, 0, _P1, _P2)">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__HVAR_MEMORY_LIST1__()" value="__HVAR_MEM_HELPER1__(__data, 0)">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__IAR_COMPILERBASE__" value="594951">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__IAR_SYSTEMS_ICC__" value="8">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__ICCARM__" value="1">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__INT16_C_SUFFIX__" value="">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__INT16_SIZE_PREFIX__" value="&quot;h&quot;">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__INT16_T_MAX__" value="32767">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__INT16_T_MIN__" value="(-__INT16_T_MAX__-1)">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__INT16_T_TYPE__" value="signed short int">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__INT32_C_SUFFIX__" value="">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__INT32_SIZE_PREFIX__" value="&quot;&quot;">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__INT32_T_MAX__" value="2147483647">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__INT32_T_MIN__" value="(-__INT32_T_MAX__-1)">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__INT32_T_TYPE__" value="signed int">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__INT64_C_SUFFIX__" value="LL">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__INT64_SIZE_PREFIX__" value="&quot;ll&quot;">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__INT64_T_MAX__" value="9223372036854775807LL">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__INT64_T_MIN__" value="(-__INT64_T_MAX__-1)">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__INT64_T_TYPE__" value="signed long long int">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__INT8_C_SUFFIX__" value="">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__INT8_SIZE_PREFIX__" value="&quot;hh&quot;">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__INT8_T_MAX__" value="127">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__INT8_T_MIN__" value="(-__INT8_T_MAX__-1)">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__INT8_T_TYPE__" value="signed char">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__INTERWORKING__" value="1">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__INTMAX_C_SUFFIX__" value="LL">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__INTMAX_SIZE_PREFIX__" value="&quot;ll&quot;">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__INTMAX_T_MAX__" value="9223372036854775807LL">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__INTMAX_T_MIN__" value="(-__INTMAX_T_MAX__-1)">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__INTMAX_T_TYPE__" value="signed long long int">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__INTPTR_SIZE_PREFIX__" value="&quot;l&quot;">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__INTPTR_T_MAX__" value="2147483647L">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__INTPTR_T_MIN__" value="(-__INTPTR_T_MAX__-1)">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__INTPTR_T_TYPE__" value="signed long int">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__INT_ALIGN__" value="4">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__INT_FAST16_SIZE_PREFIX__" value="&quot;&quot;">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__INT_FAST16_T_MAX__" value="2147483647">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__INT_FAST16_T_MIN__" value="(-__INT_FAST16_T_MAX__-1)">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__INT_FAST16_T_TYPE__" value="signed int">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__INT_FAST32_SIZE_PREFIX__" value="&quot;&quot;">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__INT_FAST32_T_MAX__" value="2147483647">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__INT_FAST32_T_MIN__" value="(-__INT_FAST32_T_MAX__-1)">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__INT_FAST32_T_TYPE__" value="signed int">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__INT_FAST64_SIZE_PREFIX__" value="&quot;ll&quot;">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__INT_FAST64_T_MAX__" value="9223372036854775807LL">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__INT_FAST64_T_MIN__" value="(-__INT_FAST64_T_MAX__-1)">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__INT_FAST64_T_TYPE__" value="signed long long int">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__INT_FAST8_SIZE_PREFIX__" value="&quot;&quot;">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__INT_FAST8_T_MAX__" value="2147483647">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__INT_FAST8_T_MIN__" value="(-__INT_FAST8_T_MAX__-1)">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__INT_FAST8_T_TYPE__" value="signed int">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__INT_LEAST16_SIZE_PREFIX__" value="&quot;h&quot;">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__INT_LEAST16_T_MAX__" value="32767">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__INT_LEAST16_T_MIN__" value="(-__INT_LEAST16_T_MAX__-1)">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__INT_LEAST16_T_TYPE__" value="signed short int">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__INT_LEAST32_SIZE_PREFIX__" value="&quot;&quot;">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__INT_LEAST32_T_MAX__" value="2147483647">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__INT_LEAST32_T_MIN__" value="(-__INT_LEAST32_T_MAX__-1)">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__INT_LEAST32_T_TYPE__" value="signed int">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__INT_LEAST64_SIZE_PREFIX__" value="&quot;ll&quot;">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__INT_LEAST64_T_MAX__" value="9223372036854775807LL">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__INT_LEAST64_T_MIN__" value="(-__INT_LEAST64_T_MAX__-1)">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__INT_LEAST64_T_TYPE__" value="signed long long int">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__INT_LEAST8_SIZE_PREFIX__" value="&quot;hh&quot;">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__INT_LEAST8_T_MAX__" value="127">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__INT_LEAST8_T_MIN__" value="(-__INT_LEAST8_T_MAX__-1)">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__INT_LEAST8_T_TYPE__" value="signed char">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__INT_SIZE__" value="4">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__JMP_BUF_ELEMENT_TYPE__" value="unsigned long long int">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__JMP_BUF_NUM_ELEMENTS__" value="16">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__LITTLE_ENDIAN__" value="1">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__LONG_ALIGN__" value="4">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__LONG_DOUBLE_ALIGN__" value="8">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__LONG_DOUBLE_SIZE__" value="8">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__LONG_LONG_ALIGN__" value="8">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__LONG_LONG_SIZE__" value="8">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__LONG_SIZE__" value="4">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__MULTIPLE_HEAPS__" value="0">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__MULTIPLE_INHERITANCE__" value="1">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__NAN_HAS_HIGH_MANTISSA_BIT_SET__" value="0">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__PLAIN_INT_BITFIELD_IS_SIGNED__" value="0">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__PRAGMA_PACK_ON__" value="1">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__PRETTY_FUNCTION__" value="&quot;&quot;">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__PTRDIFF_T_MAX__" value="2147483647">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__PTRDIFF_T_MIN__" value="(-__PTRDIFF_T_MAX__-1)">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__PTRDIFF_T_TYPE__" value="signed int">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__SHORT_ALIGN__" value="2">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__SHORT_SIZE__" value="2">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__SIGNED_CHAR_MAX__" value="127">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__SIGNED_CHAR_MIN__" value="(-__SIGNED_CHAR_MAX__-1)">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__SIGNED_INT_MAX__" value="2147483647">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__SIGNED_INT_MIN__" value="(-__SIGNED_INT_MAX__-1)">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__SIGNED_LONG_LONG_MAX__" value="9223372036854775807LL">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__SIGNED_LONG_LONG_MIN__" value="(-__SIGNED_LONG_LONG_MAX__-1)">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__SIGNED_LONG_MAX__" value="2147483647L">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__SIGNED_LONG_MIN__" value="(-__SIGNED_LONG_MAX__-1)">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__SIGNED_SHORT_MAX__" value="32767">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__SIGNED_SHORT_MIN__" value="(-__SIGNED_SHORT_MAX__-1)">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__SIZE_T_MAX__" value="0xffffffffU">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__SIZE_T_TYPE__" value="unsigned int">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__STDC_HOSTED__" value="1">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__STDC_NO_ATOMICS__" value="1">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__STDC_NO_VLA__" value="1">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__STDC_VERSION__" value="199901L">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__SUBNORMAL_FLOATING_POINTS__" value="1">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__TID__" value="0xcf60">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__TOPM_DATA_MEMORY_LIST1__()" value="">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__TOPM_DATA_MEMORY_LIST2__(_P1)" value="">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__TOPM_DATA_MEMORY_LIST3__(_P1,_P2)" value="">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__TOPP_DATA_MEMORY_LIST1__()" value="__TOPP_DATA_MEM_HELPER1__(__data, 0)">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__TOPP_DATA_MEMORY_LIST2__(_P1)" value="__TOPP_DATA_MEM_HELPER2__(__data, 0, _P1)">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__TOPP_DATA_MEMORY_LIST3__(_P1,_P2)" value="__TOPP_DATA_MEM_HELPER3__(__data, 0, _P1, _P2)">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__UINT16_C_SUFFIX__" value="">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__UINT16_T_MAX__" value="0xffff">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__UINT16_T_TYPE__" value="unsigned short int">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__UINT32_C_SUFFIX__" value="U">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__UINT32_T_MAX__" value="0xffffffffU">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__UINT32_T_TYPE__" value="unsigned int">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__UINT64_C_SUFFIX__" value="ULL">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__UINT64_T_MAX__" value="0xffffffffffffffffULL">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__UINT64_T_TYPE__" value="unsigned long long int">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__UINT8_C_SUFFIX__" value="">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__UINT8_T_MAX__" value="0xff">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__UINT8_T_TYPE__" value="unsigned char">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__UINTMAX_C_SUFFIX__" value="ULL">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__UINTMAX_T_MAX__" value="0xffffffffffffffffULL">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__UINTMAX_T_TYPE__" value="unsigned long long int">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__UINTPTR_T_MAX__" value="0xffffffffUL">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__UINTPTR_T_TYPE__" value="unsigned long int">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__UINT_FAST16_T_MAX__" value="0xffffffffU">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__UINT_FAST16_T_TYPE__" value="unsigned int">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__UINT_FAST32_T_MAX__" value="0xffffffffU">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__UINT_FAST32_T_TYPE__" value="unsigned int">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__UINT_FAST64_T_MAX__" value="0xffffffffffffffffULL">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__UINT_FAST64_T_TYPE__" value="unsigned long long int">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__UINT_FAST8_T_MAX__" value="0xffffffffU">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__UINT_FAST8_T_TYPE__" value="unsigned int">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__UINT_LEAST16_T_MAX__" value="0xffff">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__UINT_LEAST16_T_TYPE__" value="unsigned short int">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__UINT_LEAST32_T_MAX__" value="0xffffffffU">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__UINT_LEAST32_T_TYPE__" value="unsigned int">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__UINT_LEAST64_T_MAX__" value="0xffffffffffffffffULL">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__UINT_LEAST64_T_TYPE__" value="unsigned long long int">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__UINT_LEAST8_T_MAX__" value="0xff">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__UINT_LEAST8_T_TYPE__" value="unsigned char">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__UNSIGNED_CHAR_MAX__" value="0xff">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__UNSIGNED_INT_MAX__" value="0xffffffffU">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__UNSIGNED_LONG_LONG_MAX__" value="0xffffffffffffffffULL">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__UNSIGNED_LONG_MAX__" value="0xffffffffUL">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__UNSIGNED_SHORT_MAX__" value="0xffff">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__VARD_MEMORY_LIST1__()" value="__VARD_MEM_HELPER1__(__data, 0, _)">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__VAR_MEMORY_LIST1__()" value="__VAR_MEM_HELPER1__(__data, 0)">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__VAR_MEMORY_LIST2__(_P1)" value="__VAR_MEM_HELPER2__(__data, 0, _P1)">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__VAR_MEMORY_LIST3__(_P1,_P2)" value="__VAR_MEM_HELPER3__(__data, 0, _P1, _P2)">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__VERSION__" value="&quot;IAR ANSI C/C++ Compiler V7.60.1.11101/W32 for ARM&quot;">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__VER__" value="7060001">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__WCHAR_T_MAX__" value="0xffff">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__WCHAR_T_SIZE__" value="2">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__WCHAR_T_TYPE__" value="unsigned short int">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__aapcs_core" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__absolute" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__absolute_to_pic" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__acall" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__arm" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__assignment_by_bitwise_copy_allowed" value="(true)">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__assignment_by_bitwise_copy_allowed(Ty0)" value="">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__banked_func" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__bdata" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__big_endian" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__bit" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__bitvar" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__bkpt" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__brel" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__brel23" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__c99_generic(...)" value="">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__callt" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__cc_version1" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__cc_version2" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__code" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__code20" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__code24" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__code32" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__constrange(...)" value="">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__constrange(a, ...)" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__construction_by_bitwise_copy_allowed" value="(true)">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__construction_by_bitwise_copy_allowed(Ty0)" value="">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__count_ones_left" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__count_ones_right" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__count_zeros_left" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__count_zeros_right" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__data" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__data13" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__data16" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__data17" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__data20" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__data24" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__data32" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__data_overlay" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__dbgreg" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__debug_exception" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__eeprom" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__exception" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__ext_io" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__far" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__far_code" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__far_func" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__far_rom" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__farflash" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__farfunc" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__fast_interrupt" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__fiq" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__flash" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__flashvault" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__flashvault_impl" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__flat" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__fpu_sqrt_float32" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__fpu_sqrt_float64" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__func__" value="&quot;&quot;">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__generic" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__get_processor_register" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__has_constructor" value="(true)">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__has_constructor(Ty0)" value="(false)">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__has_destructor" value="(true)">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__has_destructor(Ty0)" value="(false)">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__has_nothrow_assign" value="(true)">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__has_nothrow_constructor" value="(true)">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__has_nothrow_copy" value="(true)">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__has_trivial_assign" value="(true)">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__has_trivial_constructor" value="(true)">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__has_trivial_copy" value="(true)">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__has_trivial_destructor" value="(true)">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__has_virtual_destructor" value="(true)">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__huge" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__huge_code" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__huge_func" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__huge_rom" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__hugeflash" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__idata" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__idata_overlay" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__idata_reentrant" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__imported" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__interrupt" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__interwork" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__intrinsic" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__io" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__irq" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__is_abstract" value="(true)">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__is_base_of" value="(true)">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__is_class" value="(true)">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__is_convertible_to" value="(true)">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__is_empty" value="(true)">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__is_enum" value="(true)">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__is_pod" value="(true)">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__is_polymorphic" value="(true)">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__is_union" value="(true)">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__ixdata" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__little_endian" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__memory_of(...)" value="">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__memory_of(_MemModel, ...)" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__monitor" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__near" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__near_func" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__near_rom" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__nearfunc" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__nested" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__no_bit_access" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__no_init" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__no_pic" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__no_runtime_init" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__no_save" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__no_xdata" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__noreturn" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__nounwind" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__packed" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__pcrel" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__pdata" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__pdata_reentrant" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__persistent" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__pic_to_absolute" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__ramfunc" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__raw" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__regbank_interrupt" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__regvar" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__ret_addr_on_ext_stack" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__ro_placement" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__root" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__saddr" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__saturated_add" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__saturated_sub" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__save_reg20" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__sbdata16" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__sbdata24" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__scall" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__set_processor_register" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__sfr" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__simple" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__softfp" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__stackless" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__svc" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__swi" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__synchronize_exceptions" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__synchronize_memory" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__synchronize_pipeline" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__syscall" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__sysreg" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__task" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__thumb" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__tiny" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__tiny_func" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__tinyflash" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__ubdef" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__upper_mul64" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__using" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__value_in_regs" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__veccopy    " value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__vecset" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__version_1" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__version_2" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__version_3" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__version_4" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__vfp" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__weak" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__x" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__x_z" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__xdata" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__xdata_reentrant" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__xdata_rom" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__z" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+					<entry kind="macro" name="__z_x" value=" ">
+						<flag value="BUILTIN"/>
+					</entry>
+				</resource>
+			</language>
+		</provider>
+	</extension>
+</plugin>

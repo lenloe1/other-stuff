@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="com.silabs.ss.tool.ide.arm.debug.launch">
+<stringAttribute key="com.silabs.ss.framework.debugger.core.BOARDS" value=""/>
+<stringAttribute key="com.silabs.ss.framework.debugger.core.DEFAULT_ADAPTER" value=""/>
+<stringAttribute key="com.silabs.ss.framework.debugger.core.MCU" value=""/>
+<stringAttribute key="com.silabs.ss.tool.ide.arm.debug.CORE_CLOCK" value="14.000000"/>
+<booleanAttribute key="com.silabs.ss.tool.ide.arm.debug.ENABLE_TRACE" value="true"/>
+<intAttribute key="com.silabs.ss.tool.ide.arm.debug.EXCEPTIONS_TO_CATCH" value="0"/>
+<booleanAttribute key="com.silabs.ss.tool.ide.arm.debug.SWO_AUTO_SWOCLOCK" value="false"/>
+<stringAttribute key="com.silabs.ss.tool.ide.arm.debug.SWO_CLOCK" value="875"/>
+<intAttribute key="org.eclipse.cdt.launch.ATTR_BUILD_BEFORE_LAUNCH_ATTR" value="2"/>
+<stringAttribute key="org.eclipse.cdt.launch.COREFILE_PATH" value=""/>
+<stringAttribute key="org.eclipse.cdt.launch.PROGRAM_NAME" value=""/>
+<stringAttribute key="org.eclipse.cdt.launch.PROJECT_ATTR" value=""/>
+<booleanAttribute key="org.eclipse.cdt.launch.PROJECT_BUILD_CONFIG_AUTO_ATTR" value="true"/>
+<stringAttribute key="org.eclipse.cdt.launch.PROJECT_BUILD_CONFIG_ID_ATTR" value=""/>
+</launchConfiguration>

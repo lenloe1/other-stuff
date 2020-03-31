@@ -1,0 +1,6 @@
+14:45:58 **** Build of configuration (No toolchain) Toolchain Configuration - UNIX for project Z3GatewayHost ****
+make all 
+Cannot run program "make": Launching failed
+
+Error: Program "make" not found in PATH
+PATH=[C:/SiliconLabs/SimplicityStudio/v4_3//features/com.silabs.external.java.windows.x86_64.feature_1.8.0.92/jre/bin/server;C:/SiliconLabs/SimplicityStudio/v4_3//features/com.silabs.external.java.windows.x86_64.feature_1.8.0.92/jre/bin;C:/SiliconLabs/SimplicityStudio/v4_3//features/com.silabs.external.java.windows.x86_64.feature_1.8.0.92/jre/lib/amd64;C:\MinGW\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\PuTTY\;C:\Users\lenloe.ITRON\AppData\Local\Microsoft\WindowsApps;C:\Users\lenloe.ITRON\AppData\Local\GitHubDesktop\bin;c:\SiliconLabs\SimplicityStudio\v4_3;]

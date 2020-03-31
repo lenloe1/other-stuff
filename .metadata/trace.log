@@ -1,0 +1,390 @@
+# !SESSION 2019-05-14 12:35:55.230
+# version: 1.1
+# verbose: true
+# The following option strings are specified for this debug session:
+# 	null
+| Worker-15 | 2019-05-14 12:35:55.230 | com.iar.ide.common | /debug | com.iar.ide.common.logging.Logger | traceFile | 194 | Using toolchain at C:\Program Files\IAR Systems\Embedded Workbench 7.4\arm\bin, version 7.60.1.11101 |
+# !SESSION 2019-05-16 09:39:46.675
+# version: 1.1
+# verbose: true
+# The following option strings are specified for this debug session:
+# 	null
+| Worker-5 | 2019-05-16 09:39:46.675 | com.iar.ide.common | /debug | com.iar.ide.common.logging.Logger | traceFile | 194 | Using toolchain at C:\Program Files\IAR Systems\Embedded Workbench 7.4\arm\bin, version 7.60.1.11101 |
+# !SESSION 2019-05-17 09:14:40.030
+# version: 1.1
+# verbose: true
+# The following option strings are specified for this debug session:
+# 	null
+| Worker-17 | 2019-05-17 09:14:40.030 | com.iar.ide.common | /debug | com.iar.ide.common.logging.Logger | traceFile | 194 | Using toolchain at C:\Program Files\IAR Systems\Embedded Workbench 7.4\arm\bin, version 7.60.1.11101 |
+# !SESSION 2019-05-20 09:10:45.077
+# version: 1.1
+# verbose: true
+# The following option strings are specified for this debug session:
+# 	null
+| Worker-8 | 2019-05-20 09:10:45.077 | com.iar.ide.common | /debug | com.iar.ide.common.logging.Logger | traceFile | 194 | Using toolchain at C:\Program Files\IAR Systems\Embedded Workbench 7.4\arm\bin, version 7.60.1.11101 |
+# !SESSION 2019-05-21 13:13:39.600
+# version: 1.1
+# verbose: true
+# The following option strings are specified for this debug session:
+# 	null
+| Worker-9 | 2019-05-21 13:13:39.600 | com.iar.ide.common | /debug | com.iar.ide.common.logging.Logger | traceFile | 194 | Using toolchain at C:\Program Files\IAR Systems\Embedded Workbench 7.4\arm\bin, version 7.60.1.11101 |
+# !SESSION 2019-05-22 08:54:37.734
+# version: 1.1
+# verbose: true
+# The following option strings are specified for this debug session:
+# 	null
+| Worker-17 | 2019-05-22 08:54:37.734 | com.iar.ide.common | /debug | com.iar.ide.common.logging.Logger | traceFile | 194 | Using toolchain at C:\Program Files\IAR Systems\Embedded Workbench 7.4\arm\bin, version 7.60.1.11101 |
+# !SESSION 2019-05-23 09:00:57.703
+# version: 1.1
+# verbose: true
+# The following option strings are specified for this debug session:
+# 	null
+| Worker-18 | 2019-05-23 09:00:57.703 | com.iar.ide.common | /debug | com.iar.ide.common.logging.Logger | traceFile | 194 | Using toolchain at C:\Program Files\IAR Systems\Embedded Workbench 7.4\arm\bin, version 7.60.1.11101 |
+# !SESSION 2019-05-24 08:23:20.516
+# version: 1.1
+# verbose: true
+# The following option strings are specified for this debug session:
+# 	null
+| Worker-5 | 2019-05-24 08:23:20.516 | com.iar.ide.common | /debug | com.iar.ide.common.logging.Logger | traceFile | 194 | Using toolchain at C:\Program Files\IAR Systems\Embedded Workbench 7.4\arm\bin, version 7.60.1.11101 |
+# !SESSION 2019-05-28 13:21:49.156
+# version: 1.1
+# verbose: true
+# The following option strings are specified for this debug session:
+# 	null
+| Worker-19 | 2019-05-28 13:21:49.156 | com.iar.ide.common | /debug | com.iar.ide.common.logging.Logger | traceFile | 194 | Using toolchain at C:\Program Files\IAR Systems\Embedded Workbench 7.4\arm\bin, version 7.60.1.11101 |
+# !SESSION 2019-05-29 08:39:50.732
+# version: 1.1
+# verbose: true
+# The following option strings are specified for this debug session:
+# 	null
+| Worker-10 | 2019-05-29 08:39:50.732 | com.iar.ide.common | /debug | com.iar.ide.common.logging.Logger | traceFile | 194 | Using toolchain at C:\Program Files\IAR Systems\Embedded Workbench 7.4\arm\bin, version 7.60.1.11101 |
+# !SESSION 2019-05-30 07:59:33.155
+# version: 1.1
+# verbose: true
+# The following option strings are specified for this debug session:
+# 	null
+| Worker-6 | 2019-05-30 07:59:33.155 | com.iar.ide.common | /debug | com.iar.ide.common.logging.Logger | traceFile | 194 | Using toolchain at C:\Program Files\IAR Systems\Embedded Workbench 7.4\arm\bin, version 7.60.1.11101 |
+# !SESSION 2019-05-31 14:46:16.949
+# version: 1.1
+# verbose: true
+# The following option strings are specified for this debug session:
+# 	null
+| Worker-18 | 2019-05-31 14:46:16.949 | com.iar.ide.common | /debug | com.iar.ide.common.logging.Logger | traceFile | 194 | Using toolchain at C:\Program Files\IAR Systems\Embedded Workbench 7.4\arm\bin, version 7.60.1.11101 |
+# !SESSION 2019-06-03 12:56:09.440
+# version: 1.1
+# verbose: true
+# The following option strings are specified for this debug session:
+# 	null
+| Worker-18 | 2019-06-03 12:56:09.440 | com.iar.ide.common | /debug | com.iar.ide.common.logging.Logger | traceFile | 194 | Using toolchain at C:\Program Files\IAR Systems\Embedded Workbench 7.4\arm\bin, version 7.60.1.11101 |
+# !SESSION 2019-06-04 08:32:36.816
+# version: 1.1
+# verbose: true
+# The following option strings are specified for this debug session:
+# 	null
+| Worker-19 | 2019-06-04 08:32:36.816 | com.iar.ide.common | /debug | com.iar.ide.common.logging.Logger | traceFile | 194 | Using toolchain at C:\Program Files\IAR Systems\Embedded Workbench 7.4\arm\bin, version 7.60.1.11101 |
+# !SESSION 2019-06-05 13:02:28.740
+# version: 1.1
+# verbose: true
+# The following option strings are specified for this debug session:
+# 	null
+| Worker-18 | 2019-06-05 13:02:28.740 | com.iar.ide.common | /debug | com.iar.ide.common.logging.Logger | traceFile | 194 | Using toolchain at C:\Program Files\IAR Systems\Embedded Workbench 7.4\arm\bin, version 7.60.1.11101 |
+# !SESSION 2019-06-17 10:39:51.648
+# version: 1.1
+# verbose: true
+# The following option strings are specified for this debug session:
+# 	null
+| Worker-15 | 2019-06-17 10:39:51.648 | com.iar.ide.common | /debug | com.iar.ide.common.logging.Logger | traceFile | 194 | Using toolchain at C:\Program Files\IAR Systems\Embedded Workbench 7.4\arm\bin, version 7.60.1.11101 |
+# !SESSION 2019-06-17 10:50:31.384
+# version: 1.1
+# verbose: true
+# The following option strings are specified for this debug session:
+# 	null
+| Worker-2 | 2019-06-17 10:50:31.384 | com.iar.ide.common | /debug | com.iar.ide.common.logging.Logger | traceFile | 194 | Using toolchain at C:\Program Files\IAR Systems\Embedded Workbench 7.4\arm\bin, version 7.60.1.11101 |
+# !SESSION 2019-06-17 10:55:52.041
+# version: 1.1
+# verbose: true
+# The following option strings are specified for this debug session:
+# 	null
+| Worker-19 | 2019-06-17 10:55:52.041 | com.iar.ide.common | /debug | com.iar.ide.common.logging.Logger | traceFile | 194 | Using toolchain at C:\Program Files\IAR Systems\Embedded Workbench 7.4\arm\bin, version 7.60.1.11101 |
+# !SESSION 2019-06-21 08:57:27.684
+# version: 1.1
+# verbose: true
+# The following option strings are specified for this debug session:
+# 	null
+| Worker-21 | 2019-06-21 08:57:27.684 | com.iar.ide.common | /debug | com.iar.ide.common.logging.Logger | traceFile | 194 | Using toolchain at C:\Program Files\IAR Systems\Embedded Workbench 7.4\arm\bin, version 7.60.1.11101 |
+# !SESSION 2019-06-21 15:25:20.847
+# version: 1.1
+# verbose: true
+# The following option strings are specified for this debug session:
+# 	null
+| Worker-22 | 2019-06-21 15:25:20.847 | com.iar.ide.common | /debug | com.iar.ide.common.logging.Logger | traceFile | 194 | Using toolchain at C:\Program Files\IAR Systems\Embedded Workbench 7.4\arm\bin, version 7.60.1.11101 |
+# !SESSION 2019-07-17 09:32:49.577
+# version: 1.1
+# verbose: true
+# The following option strings are specified for this debug session:
+# 	null
+| Worker-23 | 2019-07-17 09:32:49.577 | com.iar.ide.common | /debug | com.iar.ide.common.logging.Logger | traceFile | 194 | Using toolchain at C:\Program Files\IAR Systems\Embedded Workbench 7.4\arm\bin, version 7.60.1.11101 |
+# !SESSION 2019-07-17 09:43:59.334
+# version: 1.1
+# verbose: true
+# The following option strings are specified for this debug session:
+# 	null
+| Worker-24 | 2019-07-17 09:43:59.334 | com.iar.ide.common | /debug | com.iar.ide.common.logging.Logger | traceFile | 194 | Using toolchain at C:\Program Files\IAR Systems\Embedded Workbench 7.4\arm\bin, version 7.60.1.11101 |
+# !SESSION 2019-07-18 08:29:46.438
+# version: 1.1
+# verbose: true
+# The following option strings are specified for this debug session:
+# 	null
+| Worker-13 | 2019-07-18 08:29:46.438 | com.iar.ide.common | /debug | com.iar.ide.common.logging.Logger | traceFile | 194 | Using toolchain at C:\Program Files\IAR Systems\Embedded Workbench 7.4\arm\bin, version 7.60.1.11101 |
+# !SESSION 2019-07-19 10:12:44.831
+# version: 1.1
+# verbose: true
+# The following option strings are specified for this debug session:
+# 	null
+| Worker-6 | 2019-07-19 10:12:44.831 | com.iar.ide.common | /debug | com.iar.ide.common.logging.Logger | traceFile | 194 | Using toolchain at C:\Program Files\IAR Systems\Embedded Workbench 7.4\arm\bin, version 7.60.1.11101 |
+# !SESSION 2019-07-22 10:06:17.811
+# version: 1.1
+# verbose: true
+# The following option strings are specified for this debug session:
+# 	null
+| Worker-11 | 2019-07-22 10:06:17.811 | com.iar.ide.common | /debug | com.iar.ide.common.logging.Logger | traceFile | 194 | Using toolchain at C:\Program Files\IAR Systems\Embedded Workbench 7.4\arm\bin, version 7.60.1.11101 |
+# !SESSION 2019-07-22 10:14:06.611
+# version: 1.1
+# verbose: true
+# The following option strings are specified for this debug session:
+# 	null
+| Worker-6 | 2019-07-22 10:14:06.611 | com.iar.ide.common | /debug | com.iar.ide.common.logging.Logger | traceFile | 194 | Using toolchain at C:\Program Files\IAR Systems\Embedded Workbench 7.4\arm\bin, version 7.60.1.11101 |
+# !SESSION 2019-07-22 14:42:50.502
+# version: 1.1
+# verbose: true
+# The following option strings are specified for this debug session:
+# 	null
+| Worker-7 | 2019-07-22 14:42:50.502 | com.iar.ide.common | /debug | com.iar.ide.common.logging.Logger | traceFile | 194 | Using toolchain at C:\Program Files\IAR Systems\Embedded Workbench 7.4\arm\bin, version 7.60.1.11101 |
+# !SESSION 2019-07-22 14:46:39.289
+# version: 1.1
+# verbose: true
+# The following option strings are specified for this debug session:
+# 	null
+| Worker-15 | 2019-07-22 14:46:39.289 | com.iar.ide.common | /debug | com.iar.ide.common.logging.Logger | traceFile | 194 | Using toolchain at C:\Program Files\IAR Systems\Embedded Workbench 7.4\arm\bin, version 7.60.1.11101 |
+# !SESSION 2019-07-22 16:21:35.932
+# version: 1.1
+# verbose: true
+# The following option strings are specified for this debug session:
+# 	null
+| Worker-8 | 2019-07-22 16:21:35.932 | com.iar.ide.common | /debug | com.iar.ide.common.logging.Logger | traceFile | 194 | Using toolchain at C:\Program Files\IAR Systems\Embedded Workbench 7.4\arm\bin, version 7.60.1.11101 |
+# !SESSION 2019-07-23 08:43:03.674
+# version: 1.1
+# verbose: true
+# The following option strings are specified for this debug session:
+# 	null
+| Worker-5 | 2019-07-23 08:43:03.674 | com.iar.ide.common | /debug | com.iar.ide.common.logging.Logger | traceFile | 194 | Using toolchain at C:\Program Files\IAR Systems\Embedded Workbench 7.4\arm\bin, version 7.60.1.11101 |
+# !SESSION 2019-07-23 11:18:35.528
+# version: 1.1
+# verbose: true
+# The following option strings are specified for this debug session:
+# 	null
+| Worker-7 | 2019-07-23 11:18:35.528 | com.iar.ide.common | /debug | com.iar.ide.common.logging.Logger | traceFile | 194 | Using toolchain at C:\Program Files\IAR Systems\Embedded Workbench 7.4\arm\bin, version 7.60.1.11101 |
+# !SESSION 2019-07-23 12:07:44.690
+# version: 1.1
+# verbose: true
+# The following option strings are specified for this debug session:
+# 	null
+| Worker-8 | 2019-07-23 12:07:44.690 | com.iar.ide.common | /debug | com.iar.ide.common.logging.Logger | traceFile | 194 | Using toolchain at C:\Program Files\IAR Systems\Embedded Workbench 7.4\arm\bin, version 7.60.1.11101 |
+# !SESSION 2019-07-24 15:29:21.789
+# version: 1.1
+# verbose: true
+# The following option strings are specified for this debug session:
+# 	null
+| Worker-16 | 2019-07-24 15:29:21.789 | com.iar.ide.common | /debug | com.iar.ide.common.logging.Logger | traceFile | 194 | Using toolchain at C:\Program Files\IAR Systems\Embedded Workbench 7.4\arm\bin, version 7.60.1.11101 |
+# !SESSION 2019-07-26 08:46:06.244
+# version: 1.1
+# verbose: true
+# The following option strings are specified for this debug session:
+# 	null
+| Worker-25 | 2019-07-26 08:46:06.244 | com.iar.ide.common | /debug | com.iar.ide.common.logging.Logger | traceFile | 194 | Using toolchain at C:\Program Files\IAR Systems\Embedded Workbench 7.4\arm\bin, version 7.60.1.11101 |
+# !SESSION 2019-07-29 12:10:21.302
+# version: 1.1
+# verbose: true
+# The following option strings are specified for this debug session:
+# 	null
+| Worker-23 | 2019-07-29 12:10:21.302 | com.iar.ide.common | /debug | com.iar.ide.common.logging.Logger | traceFile | 194 | Using toolchain at C:\Program Files\IAR Systems\Embedded Workbench 7.4\arm\bin, version 7.60.1.11101 |
+# !SESSION 2019-08-01 11:01:16.764
+# version: 1.1
+# verbose: true
+# The following option strings are specified for this debug session:
+# 	null
+| Worker-10 | 2019-08-01 11:01:16.764 | com.iar.ide.common | /debug | com.iar.ide.common.logging.Logger | traceFile | 194 | Using toolchain at C:\Program Files\IAR Systems\Embedded Workbench 7.4\arm\bin, version 7.60.1.11101 |
+# !SESSION 2019-08-01 11:02:50.094
+# version: 1.1
+# verbose: true
+# The following option strings are specified for this debug session:
+# 	null
+| Worker-12 | 2019-08-01 11:02:50.094 | com.iar.ide.common | /debug | com.iar.ide.common.logging.Logger | traceFile | 194 | Using toolchain at C:\Program Files\IAR Systems\Embedded Workbench 7.4\arm\bin, version 7.60.1.11101 |
+# !SESSION 2019-08-01 11:07:06.549
+# version: 1.1
+# verbose: true
+# The following option strings are specified for this debug session:
+# 	null
+| Worker-44 | 2019-08-01 11:07:06.549 | com.iar.ide.common | /debug | com.iar.ide.common.logging.Logger | traceFile | 194 | Using toolchain at C:\Program Files\IAR Systems\Embedded Workbench 7.4\arm\bin, version 7.60.1.11101 |
+# !SESSION 2019-08-01 13:08:24.332
+# version: 1.1
+# verbose: true
+# The following option strings are specified for this debug session:
+# 	null
+| Worker-38 | 2019-08-01 13:08:24.332 | com.iar.ide.common | /debug | com.iar.ide.common.logging.Logger | traceFile | 194 | Using toolchain at C:\Program Files\IAR Systems\Embedded Workbench 7.4\arm\bin, version 7.60.1.11101 |
+# !SESSION 2019-08-01 14:22:28.104
+# version: 1.1
+# verbose: true
+# The following option strings are specified for this debug session:
+# 	null
+| Worker-38 | 2019-08-01 14:22:28.104 | com.iar.ide.common | /debug | com.iar.ide.common.logging.Logger | traceFile | 194 | Using toolchain at C:\Program Files\IAR Systems\Embedded Workbench 7.4\arm\bin, version 7.60.1.11101 |
+# !SESSION 2019-08-01 15:30:04.581
+# version: 1.1
+# verbose: true
+# The following option strings are specified for this debug session:
+# 	null
+| Worker-43 | 2019-08-01 15:30:04.581 | com.iar.ide.common | /debug | com.iar.ide.common.logging.Logger | traceFile | 194 | Using toolchain at C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\arm\bin, version 8.30.1.114 |
+# !SESSION 2019-08-01 16:21:57.743
+# version: 1.1
+# verbose: true
+# The following option strings are specified for this debug session:
+# 	null
+| Worker-9 | 2019-08-01 16:21:57.743 | com.iar.ide.common | /debug | com.iar.ide.common.logging.Logger | traceFile | 194 | Using toolchain at C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\arm\bin, version 8.30.1.114 |
+# !SESSION 2019-08-02 09:33:26.810
+# version: 1.1
+# verbose: true
+# The following option strings are specified for this debug session:
+# 	null
+| Worker-9 | 2019-08-02 09:33:26.810 | com.iar.ide.common | /debug | com.iar.ide.common.logging.Logger | traceFile | 194 | Using toolchain at C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\arm\bin, version 8.30.1.114 |
+# !SESSION 2019-08-02 09:52:14.094
+# version: 1.1
+# verbose: true
+# The following option strings are specified for this debug session:
+# 	null
+| Worker-10 | 2019-08-02 09:52:14.094 | com.iar.ide.common | /debug | com.iar.ide.common.logging.Logger | traceFile | 194 | Using toolchain at C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\arm\bin, version 8.30.1.114 |
+# !SESSION 2019-08-02 14:12:49.251
+# version: 1.1
+# verbose: true
+# The following option strings are specified for this debug session:
+# 	null
+| Worker-8 | 2019-08-02 14:12:49.251 | com.iar.ide.common | /debug | com.iar.ide.common.logging.Logger | traceFile | 194 | Using toolchain at C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\arm\bin, version 8.30.1.114 |
+# !SESSION 2019-08-02 17:01:58.972
+# version: 1.1
+# verbose: true
+# The following option strings are specified for this debug session:
+# 	null
+| Worker-1 | 2019-08-02 17:01:58.972 | com.iar.ide.common | /debug | com.iar.ide.common.logging.Logger | traceFile | 194 | Using toolchain at C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\arm\bin, version 8.30.1.114 |
+# !SESSION 2019-08-05 12:36:12.488
+# version: 1.1
+# verbose: true
+# The following option strings are specified for this debug session:
+# 	null
+| Worker-13 | 2019-08-05 12:36:12.488 | com.iar.ide.common | /debug | com.iar.ide.common.logging.Logger | traceFile | 194 | Using toolchain at C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\arm\bin, version 8.30.1.114 |
+# !SESSION 2019-08-06 08:33:15.356
+# version: 1.1
+# verbose: true
+# The following option strings are specified for this debug session:
+# 	null
+| Worker-3 | 2019-08-06 08:33:15.356 | com.iar.ide.common | /debug | com.iar.ide.common.logging.Logger | traceFile | 194 | Using toolchain at C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\arm\bin, version 8.30.1.114 |
+# !SESSION 2019-08-07 08:34:45.346
+# version: 1.1
+# verbose: true
+# The following option strings are specified for this debug session:
+# 	null
+| Worker-12 | 2019-08-07 08:34:45.346 | com.iar.ide.common | /debug | com.iar.ide.common.logging.Logger | traceFile | 194 | Using toolchain at C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\arm\bin, version 8.30.1.114 |
+# !SESSION 2019-08-07 10:56:24.483
+# version: 1.1
+# verbose: true
+# The following option strings are specified for this debug session:
+# 	null
+| Worker-6 | 2019-08-07 10:56:24.483 | com.iar.ide.common | /debug | com.iar.ide.common.logging.Logger | traceFile | 194 | Using toolchain at C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\arm\bin, version 8.30.1.114 |
+# !SESSION 2019-08-08 12:24:22.698
+# version: 1.1
+# verbose: true
+# The following option strings are specified for this debug session:
+# 	null
+| Worker-6 | 2019-08-08 12:24:22.698 | com.iar.ide.common | /debug | com.iar.ide.common.logging.Logger | traceFile | 194 | Using toolchain at C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\arm\bin, version 8.30.1.114 |
+# !SESSION 2019-08-09 10:45:16.066
+# version: 1.1
+# verbose: true
+# The following option strings are specified for this debug session:
+# 	null
+| Worker-11 | 2019-08-09 10:45:16.066 | com.iar.ide.common | /debug | com.iar.ide.common.logging.Logger | traceFile | 194 | Using toolchain at C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\arm\bin, version 8.30.1.114 |
+# !SESSION 2019-08-12 12:12:31.344
+# version: 1.1
+# verbose: true
+# The following option strings are specified for this debug session:
+# 	null
+| Worker-7 | 2019-08-12 12:12:31.344 | com.iar.ide.common | /debug | com.iar.ide.common.logging.Logger | traceFile | 194 | Using toolchain at C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\arm\bin, version 8.30.1.114 |
+# !SESSION 2019-08-13 10:31:20.096
+# version: 1.1
+# verbose: true
+# The following option strings are specified for this debug session:
+# 	null
+| Worker-7 | 2019-08-13 10:31:20.096 | com.iar.ide.common | /debug | com.iar.ide.common.logging.Logger | traceFile | 194 | Using toolchain at C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\arm\bin, version 8.30.1.114 |
+# !SESSION 2019-08-28 08:52:24.289
+# version: 1.1
+# verbose: true
+# The following option strings are specified for this debug session:
+# 	null
+| Worker-12 | 2019-08-28 08:52:24.289 | com.iar.ide.common | /debug | com.iar.ide.common.logging.Logger | traceFile | 194 | Using toolchain at C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\arm\bin, version 8.30.1.114 |
+# !SESSION 2019-09-27 12:58:37.112
+# version: 1.1
+# verbose: true
+# The following option strings are specified for this debug session:
+# 	null
+| Worker-13 | 2019-09-27 12:58:37.112 | com.iar.ide.common | /debug | com.iar.ide.common.logging.Logger | traceFile | 194 | Using toolchain at C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\arm\bin, version 8.30.1.114 |
+# !SESSION 2019-10-04 10:04:23.909
+# version: 1.1
+# verbose: true
+# The following option strings are specified for this debug session:
+# 	null
+| Worker-9 | 2019-10-04 10:04:23.909 | com.iar.ide.common | /debug | com.iar.ide.common.logging.Logger | traceFile | 194 | Using toolchain at C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\arm\bin, version 8.30.1.114 |
+# !SESSION 2019-10-04 10:16:59.788
+# version: 1.1
+# verbose: true
+# The following option strings are specified for this debug session:
+# 	null
+| Worker-10 | 2019-10-04 10:16:59.788 | com.iar.ide.common | /debug | com.iar.ide.common.logging.Logger | traceFile | 194 | Using toolchain at C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\arm\bin, version 8.30.1.114 |
+# !SESSION 2019-10-07 10:48:07.375
+# version: 1.1
+# verbose: true
+# The following option strings are specified for this debug session:
+# 	null
+| Worker-12 | 2019-10-07 10:48:07.375 | com.iar.ide.common | /debug | com.iar.ide.common.logging.Logger | traceFile | 194 | Using toolchain at C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\arm\bin, version 8.30.1.114 |
+# !SESSION 2019-10-08 09:17:06.900
+# version: 1.1
+# verbose: true
+# The following option strings are specified for this debug session:
+# 	null
+| Worker-10 | 2019-10-08 09:17:06.900 | com.iar.ide.common | /debug | com.iar.ide.common.logging.Logger | traceFile | 194 | Using toolchain at C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\arm\bin, version 8.30.1.114 |
+# !SESSION 2020-02-26 12:33:17.409
+# version: 1.1
+# verbose: true
+# The following option strings are specified for this debug session:
+# 	null
+| Worker-2 | 2020-02-26 12:33:17.409 | com.iar.ide.common | /debug | com.iar.ide.common.logging.Logger | traceFile | 194 | Using toolchain at C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\arm\bin, version 8.30.1.114 |
+# !SESSION 2020-02-26 13:33:45.525
+# version: 1.1
+# verbose: true
+# The following option strings are specified for this debug session:
+# 	null
+| Worker-7 | 2020-02-26 13:33:45.525 | com.iar.ide.common | /debug | com.iar.ide.common.logging.Logger | traceFile | 194 | Using toolchain at C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\arm\bin, version 8.30.1.114 |
+# !SESSION 2020-03-27 14:21:13.265
+# version: 1.1
+# verbose: true
+# The following option strings are specified for this debug session:
+# 	null
+| Worker-9 | 2020-03-27 14:21:13.265 | com.iar.ide.common | /debug | com.iar.ide.common.logging.Logger | traceFile | 194 | Using toolchain at C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\arm\bin, version 8.30.1.114 |
+# !SESSION 2020-03-27 14:33:20.519
+# version: 1.1
+# verbose: true
+# The following option strings are specified for this debug session:
+# 	null
+| Worker-7 | 2020-03-27 14:33:20.519 | com.iar.ide.common | /debug | com.iar.ide.common.logging.Logger | traceFile | 194 | Using toolchain at C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\arm\bin, version 8.30.1.114 |
+# !SESSION 2020-03-27 14:35:42.588
+# version: 1.1
+# verbose: true
+# The following option strings are specified for this debug session:
+# 	null
+| Worker-2 | 2020-03-27 14:35:42.588 | com.iar.ide.common | /debug | com.iar.ide.common.logging.Logger | traceFile | 194 | Using toolchain at C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\arm\bin, version 8.30.1.114 |
